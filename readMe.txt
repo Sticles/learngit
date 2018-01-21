@@ -12,3 +12,5 @@ git remote add origin git@github.com:Sticles/learngit.git 将本地git库关联�
 git push (-u) origin master (首次)将本地库的内容推送到自己的github远程库
 git branch dev 创建分支dev
 git checkout dev 切换到分支dev
+git merge dev 合并分支dev到master
+git branch -d dev 删除分支dev
