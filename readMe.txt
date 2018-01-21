@@ -14,3 +14,4 @@ git branch dev 创建分支dev
 git checkout dev 切换到分支dev
 git merge dev 合并分支dev到master
 git branch -d dev 删除分支dev
+git merge --no-ff -m "merge with no-ff" dev
