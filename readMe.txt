@@ -10,3 +10,5 @@ git log --pretty=oneline 比较简洁的显示提交日志
 git reflog 查看回退版本的操作日志
 git remote add origin git@github.com:Sticles/learngit.git 将本地git库关联到自己的github项目库上
 git push (-u) origin master (首次)将本地库的内容推送到自己的github远程库
+git branch dev 创建分支dev
+git checkout dev 切换到分支dev
