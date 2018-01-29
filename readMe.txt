@@ -21,4 +21,5 @@ git stash 储藏工作环境修改代码
 git stash list 查看现场存储列表
 git stash apply  stash@{0}  恢复到存储工作状态
 git stash drop stash@{0} 删除现场存储状态stash@{0}
-git stash pop 等同于git stash apply + git stash drop 
+git stash pop 等同于git stash apply + git stash drop
+git clone git@github.com:michaelliao/gitskills.git 克隆远程库内容到本地 
